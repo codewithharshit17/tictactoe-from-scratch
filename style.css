@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+.message{
+    font-size: 24px;
+    color: #EDE7D9;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: auto;
+    padding-top: 20px;
+    height: 8rem;
+    align-items: center ;
+
+} 
+
+.hide{
+    display: none;
+}   
+
 #reset-button{
     display: block;
     margin: 20px auto;
