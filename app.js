@@ -19,9 +19,11 @@ boxes.forEach((box) => {
     box.addEventListener('click', () => {
         console.log("box clicked");
         if (turnO) {
+            box.style.color = 'blue';
             box.innerText = 'O';
             turnO = false;
         } else {
+            box.style.color = 'red';
             box.innerText = 'X';
             turnO = true;
         }
@@ -65,6 +67,7 @@ const resetGame = () => {
     turnO = true;
     boxes.forEach((box) => {
         box.innerText = '';
+        box.style.color = '';
         box.disabled = false;
     });
     message.classList.add('hide');
