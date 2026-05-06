@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#reset-button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #736B60;
+    color: #EDE7D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#D5A021;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    padding-top: 20px;
+    
+
+}
+.game-board{
+    height: 60vmin;
+    width: 60vmin;
+    border-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background: #EDE7D9;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #000000;
+    font-size: 8vmin;
+    color: #4b4237;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
